@@ -2,9 +2,9 @@ import React from "react";
 
 const Roadmap = () => {
     return (
-        <div>
+        <section id="roadmap">
             <h2>Roadmap</h2>
-        </div>
+        </section>
     )
 }
 export default Roadmap;
