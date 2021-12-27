@@ -13,12 +13,11 @@ const Body = ({ style }) => {
 
     return (
         <div >
-
-            < About />
+            <About />
             <Socials />
-            < Roadmap />
+            <Roadmap />
             <Tokenomics />
-            < FAQs />
+            <FAQs />
             <Team />
         </div>
     );
