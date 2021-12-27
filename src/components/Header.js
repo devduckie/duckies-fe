@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import Duck from "../assets/Duckie.png";
 
@@ -17,7 +16,7 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-              href="https://www.google.com"
+              href="/"
             >
               <img src={Duck} alt="Duck" className="w-48" />
             </a>
