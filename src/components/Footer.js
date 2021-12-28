@@ -11,19 +11,19 @@ const Footer = () => {
                 <div style={{ flex: 1, justifyContent: 'right', padding: '1em' }}>
                     <div style={{ textAlign: 'left', margin: "6px 0 0 0" }}>
                         <h3>Quick Links</h3>
-                        <a href="#about" className="page"><FaHashtag className="inline mx-0" /> About</a><br />
-                        <a href="#tokenomics" className="page"><FaHashtag className="inline mx-0" /> Tokenomics</a><br />
-                        <a href="#roadmap" className="page"><FaHashtag className="inline mx-0" /> Roadmap</a><br />
-                        <a href="#team" className="page"><FaHashtag className="inline mx-0" /> Team</a><br />
+                        <a href="#about" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> About</a><br />
+                        <a href="#tokenomics" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Tokenomics</a><br />
+                        <a href="#roadmap" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Roadmap</a><br />
+                        <a href="#team" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Team</a><br />
                         <br />
                     </div>
                 </div>
                 <div style={{ flex: 1, justifyContent: 'right', padding: '1em' }}>
                     <div style={{ textAlign: 'left', margin: "6px 0 0 0" }}>
                         <h3>Join the Community!</h3>
-                        <a href="https://twitter.com/Duckiescoin" className="link" target="_blank" rel="noreferrer noopener"><FaTwitter className="inline mx-2" /> Twitter</a><br />
-                        <a href="https://t.me/duckiescoin" className="link" target="_blank" rel="noreferrer noopener"><FaTelegram className="inline mx-2" />Telegram</a><br />
-                        <a href="https://www.discord.gg/YXVZ5q22Qw" className="link" target="_blank" rel="noreferrer noopener"><FaDiscord className="inline mx-2" /> Discord</a><br />
+                        <a href="https://twitter.com/Duckiescoin" className="hover:text-yellow-300" target="_blank" rel="noreferrer noopener"><FaTwitter className="inline mx-2 " /> Twitter</a><br />
+                        <a href="https://t.me/duckiescoin" className="hover:text-yellow-300" target="_blank" rel="noreferrer noopener"><FaTelegram className="inline mx-2" />Telegram</a><br />
+                        <a href="https://www.discord.gg/YXVZ5q22Qw" className="hover:text-yellow-300" target="_blank" rel="noreferrer noopener"><FaDiscord className="inline mx-2" /> Discord</a><br />
                     </div>
                 </div>
                 {!useMediaQuery({ maxWidth: 600 }) && (<div style={{ flex: 1 }}></div>)}
