@@ -44,7 +44,7 @@ h1 {
 }
 
 .accordion-title:hover {
-  background-color: #0a428b;
+  background-color: rgb(217, 195, 86);
 }
 
 .accordion-title,
@@ -55,19 +55,6 @@ h1 {
 .accordion-content {
   color: rgba(15, 23, 42, 1);
   background-color: #ffffff;
-}
-
-/* Header */
-
-
-
-/* Socials */
-.icon.social {
-  color: #216aca;
-}
-
-.icon.social:hover {
-  color: #0a428b;
 }
 
 

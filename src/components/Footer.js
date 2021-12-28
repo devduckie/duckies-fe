@@ -12,8 +12,10 @@ const Footer = () => {
                     <div style={{ textAlign: 'left', margin: "6px 0 0 0" }}>
                         <h3>Quick Links</h3>
                         <a href="#about" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> About</a><br />
-                        <a href="#tokenomics" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Tokenomics</a><br />
+                        <a href="#socials" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Socials</a><br />
                         <a href="#roadmap" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Roadmap</a><br />
+                        <a href="#tokenomics" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Tokenomics</a><br />
+                        <a href="#FAQs" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> FAQs</a><br />
                         <a href="#team" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Team</a><br />
                         <br />
                     </div>
