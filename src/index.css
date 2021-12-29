@@ -57,7 +57,10 @@ h1 {
   background-color: #ffffff;
 }
 
-
+/* Form */
+.text {
+  width: 68%;
+}
 
 .chart {
   padding: 0.5rem;
