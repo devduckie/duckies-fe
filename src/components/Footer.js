@@ -16,7 +16,7 @@ const Footer = () => {
                         <a href="#roadmap" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Roadmap</a><br />
                         <a href="#tokenomics" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Tokenomics</a><br />
                         <a href="#FAQs" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> FAQs</a><br />
-                        <a href="#team" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Team</a><br />
+                        <a href="#contact" className="hover:text-yellow-300"><FaHashtag className="inline mx-0" /> Contact</a><br />
                         <br />
                     </div>
                 </div>
