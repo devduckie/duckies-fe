@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
-import Duck from "../assets/Duckie.png";
+import Duck from "../assets/Duck.png";
 
 
 
@@ -18,7 +18,10 @@ export default function Navbar({ fixed }) {
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
               href="/"
             >
-              <img src={Duck} alt="Duck" className="w-48" />
+              <div className="flex" style={{alignItems: 'center'}}>
+                <img src={Duck} alt="Duck" className="w-24" />
+                <text style={{fontSize:'x-large'}}>Duckies</text>
+              </div>
             </a>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent bg-transparent block lg:hidden outline-none focus:outline-none "
