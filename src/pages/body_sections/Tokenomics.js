@@ -8,10 +8,13 @@ const reactDonutChartHandleClick = (item, toggled) => {
         console.log(item);
     }
 };
+
 const Tokenomics = () => {
     return (
-        <section id="tokenomics" className="flex justify-center content-center bg-slate-400 text-white chart">
+
+        <section id="tokenomics" className="flex justify-center content-center bg-slate-400 chart">
             <DonutChart
+                className={"white"}
                 data={[{
                     label: 'Circulating Supply',
                     value: 58
