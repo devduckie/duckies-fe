@@ -28,7 +28,10 @@ h1 {
   text-align: center;
   margin: 2rem 0 2rem 0;
 }
-
+/* About */
+.about__text {
+  text-justify: inter-word;
+}
 
 /* Form */
 .text {
@@ -44,11 +47,12 @@ h1 {
 /* Responsiveness */
 @media screen and (max-width: 700px) {
   body {
-    font-size: 18px;
+    font-size: 16px;
   }
-
-  .accordion {
-    width: 90%;
+  /* About */
+  #about {
+    padding: 16px 20px 16px 20px ;
+    /* font-size: 16px; */
   }
   /* Socials */
   .icon {
@@ -56,11 +60,18 @@ h1 {
     margin: 8px 16px 0 4px !important;
   }
   #socials {
-padding: 6px 28px 6px 0px;
+    padding: 6px 28px 6px 0px;
+  }
+  .social__header {
+    font-size: 16px;
   }
   /* Tokenomics */
   .chart {
     width: 100%;
+  }
+
+  .about__text {
+  text-justify: inter-word;
   }
   
 }

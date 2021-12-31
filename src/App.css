@@ -54,6 +54,7 @@ html {
 }
 
 .accordion__panel {
+    
     padding: 20px;
     color: rgba(15, 23, 42, 1);
     background-color: #fff;
@@ -84,5 +85,11 @@ html {
     }
     #FAQs {
         padding: 48px 2px 48px 2px;
+    }
+    .accordion__button {
+        font-size: 15px;
+    }
+    .accordion__panel {
+        font-size: 13px;
     }
 }
