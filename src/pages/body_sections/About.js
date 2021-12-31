@@ -16,7 +16,7 @@ const About = () => {
                     </button>
                 </a>
                 <a href="https://bscscan.com/token/0x40efd6c0eb234330e9eeecbba7fbc6ef85a03ea5#tokenTrade" target="_blank" rel="noreferrer noopener">
-                    <button className="text-sm font-bold bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-full mx-2 my-2">
+                    <button className="text-sm font-bold bg-blue-500 hover:bg-blue-700 text-white py-4 px-6 rounded-full mx-2 my-2">
                         View on BSCScan
                     </button>
                 </a>
