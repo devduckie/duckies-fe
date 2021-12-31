@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Mainnet Launch",
+        "date": "Dec. 2021",
+        "subtitle": "BSC Network",
+        "content": "Mainnet launch of $DUCKIE on the Binance Smart Chain",
+        "status": "done"
+    },
+    {
+        "title": "1000 Community Members",
+        "date": "Dec. 2021",
+        "subtitle": "Twitter, Discord & Telegram",
+        "content": "Reach 1000 community members on discord, twitter and telegram",
+        "status": "done"
+    },
+    {
+        "title": "Phase 1 Airdrop",
+        "date": "Dec. 2021",
+        "content": "Airdrop to our early duck community members",
+        "status": "done"
+    },
+    {
+        "title": "3000 Community Members",
+        "date": "Dec. 2021",
+        "subtitle": "Twitter, Discord & Telegram",
+        "content": "Reach 3000 community members on discord, twitter and telegram",
+        "status": "done"
+    },
+    {
+        "title": "Pancakeswap listing and LP lock",
+        "date": "Dec. 2021",
+        "content": "Provide liquidity on pancakeswap and lock liquidity with team.finance",
+        "status": "ongoing"
+    },
+    {
+        "title": "Phase 2 Airdrop",
+        "date": "Jan. 2022",
+        "content": "Airdrop to our phase 2 valid entry airdrop participants",
+        "status": "ongoing"
+    },
+    {
+        "title": "Website & Whitepaper Launch",
+        "date": "Jan. 2022",
+        "content": "Website and whitepaper release",
+        "status": "pending"
+    },
+    {
+        "title": "Smart Contract Audit",
+        "date": "Jan. 2022",
+        "content": "Smart contract Audit by solidity.finance",
+        "status": "pending"
+    },
+    {
+        "title": "Burn & Team Vesting",
+        "date": "Jan. 2022",
+        "content": "Token burn and team $Duckie vesting start",
+        "status": "pending"
+    }
+]
