@@ -32,7 +32,7 @@ export default function Example() {
                                     {heading}
                                 </AccordionItemButton>
                             </AccordionItemHeading>
-                            <AccordionItemPanel>
+                            <AccordionItemPanel className="accordion__panel">
                                 <p>
                                     {content}
                                 </p>

@@ -55,6 +55,8 @@ html {
 
 .accordion__panel {
     padding: 20px;
+    color: rgba(15, 23, 42, 1);
+    background-color: #fff;
     animation: fadein 0.35s ease-in;
 }
 
