@@ -88,8 +88,10 @@ html {
     }
     .accordion__button {
         font-size: 15px;
+        padding: 10px;
     }
     .accordion__panel {
         font-size: 13px;
+        padding: 12px;
     }
 }
