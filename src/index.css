@@ -28,33 +28,9 @@ h1 {
   text-align: center;
   margin: 2rem 0 2rem 0;
 }
-
-/* FAQs Accordion */
-.accordion {
-  max-width: 80vw;
-  margin: 2rem auto;
-}
-
-.accordion-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  cursor: pointer;
-  background-color: rgba(15, 23, 42, 1);
-}
-
-.accordion-title:hover {
-  background-color: rgb(217, 195, 86);
-}
-
-.accordion-title,
-.accordion-content {
-  padding: 1rem;
-}
-
-.accordion-content {
-  color: rgba(15, 23, 42, 1);
-  background-color: #ffffff;
+/* About */
+.about__text {
+  text-justify: inter-word;
 }
 
 /* Form */
@@ -69,20 +45,33 @@ h1 {
   color: white !important;
 }
 /* Responsiveness */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   body {
-    font-size: 18px;
+    font-size: 16px;
   }
-
-  .accordion {
-    width: 90%;
+  /* About */
+  #about {
+    padding: 16px 20px 16px 20px ;
+    /* font-size: 16px; */
   }
-
+  /* Socials */
   .icon {
     font-size: 0.6em;
+    margin: 8px 16px 0 4px !important;
   }
+  #socials {
+    padding: 6px 28px 6px 0px;
+  }
+  .social__header {
+    font-size: 16px;
+  }
+  /* Tokenomics */
   .chart {
-    width: 100%;
+    width: 95%;
+  }
+  /* About */
+  .about__text {
+  text-justify: inter-word;
   }
   
 }

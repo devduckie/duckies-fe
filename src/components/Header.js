@@ -83,7 +83,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 ml-4 mr-2 flex items-center text-xs uppercase font-light leading-snug text-white border-white bg-blue-500 rounded-lg"
+                  className="px-3 py-2 ml-4 mr-2 flex items-center text-xs uppercase font-light leading-snug text-white border-white bg-blue-500 rounded-3xl"
                   href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x40eFd6C0EB234330e9eeeCBBa7FBc6EF85a03EA5" target="_blank" rel="noreferrer noopener"
                 >
                   <img src={PancakeSwap} alt="Pancakeswap" className="w-4" />
