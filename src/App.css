@@ -79,7 +79,7 @@ html {
 /* ---------------- Responsiveness ------------------- */
 /* --------------------------------------------------- */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
     .accordion {
         width: 100%;
     }
