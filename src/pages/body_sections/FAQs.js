@@ -1,6 +1,5 @@
 import React from 'react';
 import "../../App.css";
-
 import {
     Accordion,
     AccordionItem,
@@ -8,7 +7,6 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from 'react-accessible-accordion';
-
 import FAQs from '../../data/faqs.json';
 
 
