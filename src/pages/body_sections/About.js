@@ -24,7 +24,7 @@ const About = () => {
                 </a>
                 <a href="https://www.team.finance/view-coin/0x40eFd6C0EB234330e9eeeCBBa7FBc6EF85a03EA5?name=Duckies&symbol=DUCKIE" target="_blank" rel="noreferrer noopener">
                     <button className="text-sm font-bold bg-blue-500 hover:bg-blue-700 text-white py-4 px-6 rounded-full mx-2 my-2">
-                        View on LP Lock
+                        Verify LP Lock
                     </button>
                 </a>
             </div>
