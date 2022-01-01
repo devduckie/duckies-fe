@@ -9,3 +9,89 @@ html {
         scroll-padding: 19.5em 0 0 0;
     }   
 }
+
+.accordion {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.accordion__item + .accordion__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+    background-color: rgba(15, 23, 42, 1);
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.accordion__button:hover {
+    background-color: rgba(253, 224, 71, 0.7);
+}
+
+.accordion__button:before {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+    transform: rotate(45deg);
+}
+
+[hidden] {
+    display: none;
+}
+
+.accordion__panel {
+    
+    padding: 20px;
+    color: rgba(15, 23, 42, 1);
+    background-color: #fff;
+    animation: fadein 0.35s ease-in;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* --------------------------------------------------- */
+/* ---------------- Responsiveness ------------------- */
+/* --------------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+    .accordion {
+        width: 100%;
+    }
+    #FAQs {
+        padding: 48px 2px 48px 2px;
+    }
+    .accordion__button {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .accordion__panel {
+        font-size: 13px;
+        padding: 12px;
+    }
+}
