@@ -3,12 +3,12 @@ import React from "react";
 
 const About = () => {
     return (
-        <section id="about" className="About grid text-white py-36 sm:text-xs md:text-md lg:text-xl md:justify-center md:content-center" >
+        <section id="about" className="About grid text-white py-36 lg:px-32 md:px-16 sm:text-xs md:text-md lg:text-xl md:justify-center md:content-center" >
             <h1 className="text-2xl text-white font-semibold tracking-tight text-center capitalize">About</h1>
-            <h2 className=" leading-8 text-justify about__text lg:px-16">
-                Duckies is a community project built on the Binance Smart Chain (BSC) network with $DUCKIE as its
-                ecosystem token. We believe in the power of community to drive changes and that is why we are committed
-                to building value through our community to the rest of the world.
+            <h2 className=" leading-8 text-center about__text lg:px-16 mb-16">
+                Duckies is a community project built on the Binance Smart Chain (BSC) with $DUCKIE as its
+                ecosystem token. We are a community driven project bringing the adoption of Duckies NFT integration and 
+                gamification on the platform (P2E)
             </h2>
 
             <div className="my-8 md:content-center md:justify-center lg:px-16 mx-auto my-8">
