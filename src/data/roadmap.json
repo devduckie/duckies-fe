@@ -7,10 +7,10 @@
         "status": "done"
     },
     {
-        "title": "1000 Community Members",
+        "title": "1K Community Members",
         "date": "Dec. 2021",
         "subtitle": "Twitter, Discord & Telegram",
-        "content": "Reach 1000 community members on discord, twitter and telegram",
+        "content": "Reach 1K community members on discord, twitter and telegram",
         "status": "done"
     },
     {
@@ -20,10 +20,10 @@
         "status": "done"
     },
     {
-        "title": "3000 Community Members",
+        "title": "3K Community Members",
         "date": "Dec. 2021",
         "subtitle": "Twitter, Discord & Telegram",
-        "content": "Reach 3000 community members on discord, twitter and telegram",
+        "content": "Reach 3K community members on discord, twitter and telegram",
         "status": "done"
     },
     {
@@ -36,7 +36,7 @@
         "title": "Phase 2 Airdrop",
         "date": "Jan. 2022",
         "content": "Airdrop to our phase 2 valid entry airdrop participants",
-        "status": "ongoing"
+        "status": "done"
     },
     {
         "title": "Website & Whitepaper Launch",
@@ -45,15 +45,26 @@
         "status": "ongoing"
     },
     {
+        "title": "CMC and Coingekco listing",
+        "content": "Application for CMC and Coingekco listing",
+        "status": "pending"
+    },
+    {
         "title": "Smart Contract Audit",
         "date": "Jan. 2022",
-        "content": "Smart contract Audit by solidity.finance",
+        "content": "Audit of token and factory contract",
         "status": "pending"
     },
     {
         "title": "Burn & Team Vesting",
         "date": "Jan. 2022",
         "content": "Token burn and team $Duckie vesting start",
+        "status": "pending"
+    },
+    {
+        "title": "5K Community Members",
+        "subtitle": "Twitter, Discord & Telegram",
+        "content": "Reach 5K community members on discord, twitter and telegram",
         "status": "pending"
     }
 ]
