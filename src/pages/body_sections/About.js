@@ -12,7 +12,7 @@ const About = () => {
             </h2>
 
             <div className="my-8 md:content-center md:justify-center lg:px-16 mx-auto my-8">
-                <a href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x40eFd6C0EB234330e9eeeCBBa7FBc6EF85a03EA5" target="_blank" rel="noreferrer noopener">
+                <a href="https://pancakeswap.finance/swap?outputCurrency=0x40eFd6C0EB234330e9eeeCBBa7FBc6EF85a03EA5" target="_blank" rel="noreferrer noopener">
                     <button className="text-sm font-bold bg-blue-500 hover:bg-blue-700 text-white py-4 px-6 rounded-full mx-2 my-2">
                         Buy on Pancakeswap
                     </button>
