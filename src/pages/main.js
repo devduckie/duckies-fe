@@ -1,7 +1,8 @@
 import Header from '../components/Header';
 import Body from '../pages/body';
 import Footer from '../components/Footer';
-
+import smoothscroll from 'smoothscroll-polyfill';
+smoothscroll.polyfill();
 
 function Main() {
 

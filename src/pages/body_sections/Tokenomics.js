@@ -9,7 +9,7 @@ const reactDonutChartHandleClick = (item, toggled) => {
 
 const data = [
     {
-        "label": "Circulating Supply",
+        "label": "Market Liquidity",
         "value": 58
     },
     {
