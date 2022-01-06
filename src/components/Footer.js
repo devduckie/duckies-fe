@@ -1,6 +1,6 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import { FaTwitter, FaTelegram, FaDiscord, FaHashtag } from "react-icons/fa";
+import { FaTwitter, FaTelegram, FaDiscord, FaHashtag, FaEnvelope } from "react-icons/fa";
 
 
 
@@ -28,7 +28,13 @@ const Footer = () => {
                         <a href="https://www.discord.gg/YXVZ5q22Qw" className="hover:text-yellow-300" target="_blank" rel="noreferrer noopener"><FaDiscord className="inline mx-2" /> Discord</a><br />
                     </div>
                 </div>
-                {!useMediaQuery({ maxWidth: 600 }) && (<div style={{ flex: 1 }}></div>)}
+                <div style={{ flex: 1, justifyContent: 'right', padding: '1em' }}>
+                    <div style={{ textAlign: 'left', margin: "6px 0 0 0" }}>
+                        <h3>Contact us</h3>
+                        <a href="mailto:duckiescoin@gmail.com" className="hover:text-yellow-300" target="_blank" rel="noreferrer noopener"><FaEnvelope className="inline mx-2" /> duckiescoin@gmail.com</a><br />
+                        <a href="mailto:community@duckescoin.com" className="hover:text-yellow-300" target="_blank" rel="noreferrer noopener"><FaEnvelope className="inline mx-2" /> community@duckiescoin.com</a><br />
+                    </div>
+                </div>
                 {!useMediaQuery({ maxWidth: 600 }) && (<div style={{ flex: 1 }}></div>)}
             </div>
 
