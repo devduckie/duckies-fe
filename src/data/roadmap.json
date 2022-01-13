@@ -42,12 +42,18 @@
         "title": "Website & Whitepaper Launch",
         "date": "Jan. 2022",
         "content": "Website and whitepaper release",
-        "status": "ongoing"
+        "status": "done"
+    },
+    {
+        "title": "Lunarcrush listing",
+        "date": "Jan. 2022",
+        "content": "$DUCKIE is listed on LunarCrush: Social intelligence for cryptocurrencies",
+        "status": "done"
     },
     {
         "title": "CMC and Coingekco listing",
         "content": "Application for CMC and Coingekco listing",
-        "status": "pending"
+        "status": "ongoing"
     },
     {
         "title": "Smart Contract Audit",
