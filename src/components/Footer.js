@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
 
             <span className=" font-semibold flex justify-center content-center uppercase">
-                2021 &#169; Duckies Coin
+                2021 &#169; DuckiesCoin
             </span>
         </div>
     );
