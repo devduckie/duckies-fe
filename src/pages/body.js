@@ -5,7 +5,8 @@ import Roadmap from '../pages/body_sections/Roadmap';
 import Tokenomics from '../pages/body_sections/Tokenomics';
 import FAQs from '../pages/body_sections/FAQs';
 import Socials from '../pages/body_sections/Socials';
-// import Contact from '../pages/body_sections/Contact';
+import Partners from '../pages/body_sections/Partners';
+
 
 
 
@@ -17,6 +18,7 @@ const Body = ({ style }) => {
             <Roadmap />
             <Tokenomics />
             <FAQs />
+            <Partners />
             <Socials />
 
             {/* <Contact /> */}

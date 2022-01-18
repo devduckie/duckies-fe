@@ -76,6 +76,14 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 hover:text-yellow-300"
+                  href="#partners"
+                >
+                  <span className="ml-2">Partners</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 hover:text-yellow-300"
                   href="#socials"
                 >
                   <span className="ml-2">Socials</span>
