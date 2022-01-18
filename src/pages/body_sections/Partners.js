@@ -5,7 +5,7 @@ const Partners = () => {
     return (
         <>
             <section id="partners" className="py-12 px-32 flex flex-col items-center justify-center">
-                <h3 className='text-2xl text-white font-semibold tracking-tight text-center capitalize mb-16'>
+                <h3 className='text-2xl text-white font-semibold tracking-tight text-center capitalize mb-10 md:mb-16'>
                     Partners
                 </h3>
 
@@ -14,8 +14,8 @@ const Partners = () => {
 
                     return (
                         <>
-                            <img src={img} alt={alt} className="w-96 my-8 animate-pulse" />
-                            <p className="my-8 font-medium">{name}</p>
+                            <img src={img} alt={alt} className="w-48 md:w-96 animate-pulse" />
+                            <p className="my-4 md:my-8 font-medium">{name}</p>
                         </>
                     )
                 })}
