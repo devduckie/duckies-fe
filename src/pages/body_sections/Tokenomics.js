@@ -1,11 +1,4 @@
 import React from "react";
-import DonutChart from 'react-donut-chart';
-
-const reactDonutChartHandleClick = (item, toggled) => {
-    if (toggled) {
-        console.log(item);
-    }
-};
 
 const data = [
     {
@@ -17,7 +10,7 @@ const data = [
         "value": 20
     },
     {
-        "label": "Community and Holders",
+        "label": "Community & Holders",
         "value": 10
     },
     {
@@ -25,7 +18,7 @@ const data = [
         "value": 5
     },
     {
-        "label": "Team and Advisors",
+        "label": "Team & Advisors",
         "value": 7
     }
 ]
@@ -39,21 +32,20 @@ const color = [
 
 const Tokenomics = () => {
     return (
-        <section id="tokenomics" className="flex justify-center content-center text-center mx-auto chart">
-            <DonutChart
-                className={"white"}
-                data={data}
-                onClick={(item, toggled) => reactDonutChartHandleClick(item, toggled)}
-                innerRadius={0.6}
-                colors={color}
-                height={550}
-                width={550}
-                legend={false}
-                selectedOffset={0.04}
-                strokeColor={"#fff"}
-
-
-            />
+        <section id="tokenomics" className="pt-32 px-32">
+            <h3 className='text-2xl text-white font-semibold tracking-tight text-center capitalize mb-8'>
+                Tokenomics
+            </h3>
+            <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-3 mt-20">
+                {Object.values(data).map((item,id) =>  {
+                    return (
+                        <div key={`${id}`} className="my-10 text-center">
+                            <div>{item.label}</div>
+                            <div>{item.value}%</div>
+                        </div>
+                    )
+                })}
+            </div>
         </section>
     )
 }
