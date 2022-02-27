@@ -2,7 +2,7 @@
   "name": "duckies",
   "version": "0.1.0",
   "engines": {
-    "npm": "7.x",
+    "yarn": "1.22.x",
     "node": "16.x"
   },
   "private": true,
