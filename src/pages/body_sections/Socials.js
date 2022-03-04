@@ -4,7 +4,7 @@ import { IconContext } from "react-icons";
 
 const Socials = () => {
     return (
-        <section id="socials" className="py-8">
+        <section id="socials" className="py-8 text-center">
             {/* <div className="flex justify-center content-center mb-8 ml-10 font-semibold leading-3 tracking-wide capitalize">
                 <h1 className='text-2xl text-white font-semibold tracking-tight text-center capitalize social__header'>Join our Community</h1>
             </div> */}

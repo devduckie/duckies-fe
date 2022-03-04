@@ -1,0 +1,84 @@
+[
+    {
+        "title": "Mainnet Launch",
+        "date": "Dec. 2021",
+        "subtitle": "BSC Network",
+        "content": "Mainnet launch of $DUCKIE on the Binance Smart Chain",
+        "status": "done"
+    },
+    {
+        "title": "1K Community Members",
+        "date": "Dec. 2021",
+        "subtitle": "Twitter, Discord & Telegram",
+        "content": "Reach 1K community members on discord, twitter and telegram",
+        "status": "done"
+    },
+    {
+        "title": "Phase 1 Airdrop",
+        "date": "Dec. 2021",
+        "content": "Airdrop to our early duck community members",
+        "status": "done"
+    },
+    {
+        "title": "3K Community Members",
+        "date": "Dec. 2021",
+        "subtitle": "Twitter, Discord & Telegram",
+        "content": "Reach 3K community members on discord, twitter and telegram",
+        "status": "done"
+    },
+    {
+        "title": "Pancakeswap listing and LP lock",
+        "date": "Dec. 2021",
+        "content": "Provide liquidity on pancakeswap and lock liquidity with team.finance",
+        "status": "done"
+    },
+    {
+        "title": "Phase 2 Airdrop",
+        "date": "Jan. 2022",
+        "content": "Airdrop to our phase 2 valid entry airdrop participants",
+        "status": "done"
+    },
+    {
+        "title": "Website & Whitepaper Launch",
+        "date": "Jan. 2022",
+        "content": "Website and whitepaper release",
+        "status": "done"
+    },
+    {
+        "title": "Lunarcrush listing",
+        "date": "Jan. 2022",
+        "content": "$DUCKIE is listed on LunarCrush: Social intelligence for cryptocurrencies",
+        "status": "done"
+    },
+    {
+        "title": "5K Community Members",
+        "subtitle": "Twitter, Discord & Telegram",
+        "content": "Reach 5K community members on discord, twitter and telegram",
+        "status": "ongoing"
+    },
+    {
+        "title": "CMC and Coingekco listing",
+        "content": "Application for CMC and Coingekco listing",
+        "status": "ongoing"
+    },
+    {
+        "title": "Smart Contract Audit",
+        "content": "Audit of token and factory contract",
+        "status": "pending"
+    },
+    {
+        "title": "Burn & Team Vesting",
+        "content": "Token burn and team $Duckie vesting start",
+        "status": "pending"
+    },
+    {
+        "title": "Game Preview",
+        "content": "Preview and beta-testing of our P2E game",
+        "status": "pending"
+    },
+    {
+        "title": "NFT Drop",
+        "content": "NFT drop for our community members in preparation for game launch",
+        "status": "pending"
+    }
+]

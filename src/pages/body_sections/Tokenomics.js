@@ -1,61 +1,57 @@
 import React from "react";
-import DonutChart from 'react-donut-chart';
-
-const reactDonutChartHandleClick = (item, toggled) => {
-    if (toggled) {
-        console.log(item);
-    }
-};
+import { FaBeer, } from 'react-icons/fa';
+import { GiBurningEye, GiTeamIdea, GiMegaphone, GiDroplets } from "react-icons/gi";
+import { RiTeamFill } from "react-icons/ri";
 
 const data = [
     {
         "label": "Market Liquidity",
-        "value": 58
+        "value": 58,
+        "image": GiDroplets
     },
     {
         "label": "Token Burn",
-        "value": 20
+        "value": 20,
+        "image": GiBurningEye
     },
     {
-        "label": "Community and Holders",
-        "value": 10
+        "label": "Community/Holders",
+        "value": 10,
+        "image": RiTeamFill
     },
     {
         "label": "Marketing",
-        "value": 5
+        "value": 5,
+        "image": GiMegaphone
     },
     {
-        "label": "Team and Advisors",
-        "value": 7
+        "label": "Team & Advisors",
+        "value": 7,
+        "image": GiTeamIdea
     }
 ]
-const color = [
-    "#003f5c",
-    "#58508d",
-    "#bc5090",
-    "#ff6361",
-    "#ffa600"
-]
+console.log(data[0].image);
 
 const Tokenomics = () => {
     return (
-        <section id="tokenomics" className="flex justify-center content-center text-center mx-auto chart">
-            <DonutChart
-                className={"white"}
-                data={data}
-                onClick={(item, toggled) => reactDonutChartHandleClick(item, toggled)}
-                innerRadius={0.6}
-                colors={color}
-                height={550}
-                width={550}
-                legend={false}
-                selectedOffset={0.04}
-                strokeColor={"#fff"}
-
-
-            />
+        <section id="tokenomics" className="pt-32 lg:px-32 sm:px-4 md:px-16">
+            <h3 className='text-2xl text-white font-semibold tracking-tight text-center capitalize mb-8'>
+                Tokenomics
+            </h3>
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 items-center mt-12 lg:mt-28 mx-4">
+                {Object.values(data).map((item,id) =>  {
+                    return (
+                        <div key={`${id}`} className="flex flex-col flex-1 p-4 text-center items-end bg-gradient-to-r from-slate-700 to-slate-900 drop-shadow-2xl hover:drop-shadow-xl">
+                            <div>{item.label}</div>
+                            <div>{item.value}%</div>
+                            <span className="relative right-3/4 bottom-6 lg:bottom-2 text-yellow-400">{<item.image style={{fontSize: "28px"}}/>}</span>
+                        </div>
+                    )
+                })}
+            </div>
         </section>
     )
 }
+// <div key={`${id}`} className="flex flex-col flex-1 p-1 mx-2 my-4 lg:my-0 text-center items-end bg-gradient-to-r from-slate-700 to-slate-900 drop-shadow-2xl hover:drop-shadow-xl">
 
 export default Tokenomics;
