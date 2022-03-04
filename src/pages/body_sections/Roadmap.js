@@ -2,6 +2,7 @@ import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import roadmap from '../../data/roadmap.json';
+import {  MdIndeterminateCheckBox, MdCheckBox } from 'react-icons/md';
 
 const Roadmap = () => {
     return (
@@ -22,7 +23,15 @@ const Roadmap = () => {
                         >
                             {title && (<h3 className="vertical-timeline-element-title text-lg font-bold">{title}</h3>)}
                             {subtitle && (<h4 className="vertical-timeline-element-subtitle">{subtitle}</h4>)}
-                            {content && (<p>{content}</p>)}
+                            <div className="mt-4">
+                                {content && Object.values(content).map((val,id) => {
+                                    return (
+                                        <div className="flex flex-row" /* style={{alignItems:'top'}} */ key={`${id}`}>
+                                            <span className="pt-1 pr-2">{val.status === 'done' ? <MdCheckBox /> : <MdIndeterminateCheckBox />}</span>
+                                            <span>{val.title}</span>
+                                        </div>)
+                                })}
+                            </div>
                         </VerticalTimelineElement>
                     )
                 })}
