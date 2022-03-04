@@ -57,13 +57,11 @@
     },
     {
         "title": "Smart Contract Audit",
-        "date": "Jan. 2022",
         "content": "Audit of token and factory contract",
         "status": "pending"
     },
     {
         "title": "Burn & Team Vesting",
-        "date": "Jan. 2022",
         "content": "Token burn and team $Duckie vesting start",
         "status": "pending"
     },
